@@ -19,8 +19,8 @@ class FeedRepository {
     Feed(
       id: 2,
       user: User(
-        name: 'Rafi Ahmad dan Nagita Slavina', 
-        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4PonNbE4LBqFPdb4pwEbtItm4ECyEY3tRBdQgT96VbQ8m3NSWc5vf-8ovoZodeTKKiMU&usqp=CAU', 
+        name: 'Rafi Ahmad', 
+        avatar: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRO_-QQfvULpMwmMSJcEBSWo-HmBNtn1XN0Aj1z3-JMY42F3Qys', 
         place: 'Andara'
         ), 
       content: Content(
@@ -32,8 +32,8 @@ class FeedRepository {
     Feed(
       id: 3,
       user: User(
-        name: 'Rafatar', 
-        avatar: 'https://i1.wp.com/risetcdn.jatimtimes.com/images/2022/08/15/Rafathar-Malik-Ahmad-Pa689bbb24283e127.md.jpg?quality=50', 
+        name: 'Rafi Ahmad', 
+        avatar: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRO_-QQfvULpMwmMSJcEBSWo-HmBNtn1XN0Aj1z3-JMY42F3Qys', 
         place: 'Cangkuang'
         ), 
       content: Content(
@@ -42,8 +42,6 @@ class FeedRepository {
         likes: '67.2890 Likes', 
         description: 'Bismillah dilantik'
         )),
-
-    
-  ];
+    ];
   }
 }

@@ -12,7 +12,6 @@ class FeedBookmarkPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final controller = context.watch<FeedController>();
 
-    // Asumsi: controller.bookmarkedFeeds adalah daftar feed yang di-bookmark.
     final bookmarkedFeeds = controller.bookmarkedFeeds;
 
     return Scaffold(
